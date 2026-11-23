@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abdelrahman Abdelhafiz - Software Developer and Creator of Life Simulator.">
+  <title>Abdelrahman Abdelhafiz | Developer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: #0b1020;
+      color: #e8edf8;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1050px, 90%); margin: auto; }
+    header { padding: 25px 0; border-bottom: 1px solid #202a40; }
+    nav { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .logo { font-size: 20px; font-weight: bold; color: #75a7ff; }
+    nav a { color: #b9c5dc; margin-left: 20px; font-size: 14px; }
+    .hero { padding: 105px 0 90px; }
+    .tag { color: #75a7ff; font-size: 14px; letter-spacing: 2px; }
+    h1 { font-size: clamp(38px, 7vw, 66px); line-height: 1.15; margin: 18px 0; }
+    h1 span { color: #75a7ff; }
+    .intro { max-width: 650px; color: #aab7cf; font-size: 18px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; }
+    .btn { padding: 12px 21px; border-radius: 8px; background: #3978e8; font-weight: bold; }
+    .btn.secondary { background: transparent; border: 1px solid #43516c; }
+    section { padding: 65px 0; border-top: 1px solid #202a40; }
+    h2 { font-size: 29px; margin-bottom: 22px; }
+    .muted { color: #aab7cf; max-width: 750px; }
+    .card {
+      background: #121b30;
+      border: 1px solid #273550;
+      border-radius: 14px;
+      padding: 27px;
+      margin-top: 20px;
+    }
+    .card h3 { font-size: 22px; margin-bottom: 10px; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .skill { background: #172640; border: 1px solid #304567; padding: 7px 13px; border-radius: 20px; color: #bcd4ff; font-size: 14px; }
+    footer { padding: 30px 0; text-align: center; color: #8290a9; font-size: 14px; }
+    @media (max-width: 600px) {
+      nav { align-items: flex-start; flex-direction: column; }
+      nav a { margin: 0 15px 0 0; }
+      .hero { padding: 75px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="#">Abdelrahman.</a>
+        <div>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="hero">
+        <p class="tag">SOFTWARE DEVELOPER</p>
+        <h1>Building ideas into<br><span>real solutions.</span></h1>
+        <p class="intro">
+          I'm Abdelrahman Abdelhafiz, a software developer interested
+          in building practical applications and intelligent systems
+          that help people make better decisions.
+        </p>
+        <div class="actions">
+          <a class="btn" href="#projects">Explore My Work</a>
+          <a class="btn secondary" href="https://github.com/abdelrahmanabdelhafiz2-creator" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+        </div>
+      </div>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p class="muted">
+          I enjoy turning complex ideas into useful software.
+          My interests include backend engineering, application
+          architecture, artificial intelligence, and decision systems.
+          I focus on continuous learning and building complete projects.
+        </p>
+        <div class="skills">
+          <span class="skill">Java</span>
+          <span class="skill">Spring Boot</span>
+          <span class="skill">React</span>
+          <span class="skill">TypeScript</span>
+          <span class="skill">PostgreSQL</span>
+          <span class="skill">Artificial Intelligence</span>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Featured Project</h2>
+        <div class="card">
+          <p class="tag">FLAGSHIP PROJECT</p>
+          <h3>Life Simulator</h3>
+          <p class="muted">
+            An intelligent personal decision-support platform designed
+            to help people explore life choices, analyze risks,
+            compare scenarios, and make more informed decisions.
+          </p>
+          <div class="actions">
+            <a class="btn" href="https://github.com/abdelrahmanabdelhafiz2-creator/life-simulator" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <p class="muted">
+          Interested in software engineering, technology, or collaboration?
+          Feel free to explore my work and connect with me.
+        </p>
+        <div class="actions">
+          <a class="btn" href="https://github.com/abdelrahmanabdelhafiz2-creator" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Abdelrahman Abdelhafiz. Built with passion for technology.
+    </div>
+  </footer>
+</body>
+</html>
